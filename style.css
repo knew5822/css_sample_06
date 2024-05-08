@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body {
+  background-color: #bcd079;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+ 
+header {
+  padding: 40px;
+  height: 80px;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: #fcc800;
+  color: #ffffff;
+}
+ 
+main {
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer {
+  padding: 40px;
+  height: 40px;
+  background-color : #fcc800;
+  color: white;
+}
+
+a {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
+
+table tr:nth-of-type(even) {
+  background-color: gray;
+}
